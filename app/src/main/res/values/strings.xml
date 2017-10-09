@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MotionCapture</string>
+    <string-array name="sensors">
+        <item>Accelerometer</item>
+        <item>Gyroscope</item>
+        <item>Magnetometer</item>
+    </string-array>
+
+    <string-array name="frequency">
+        <item>FASTEST</item>
+        <item>GAME</item>
+        <item>NORMAL</item>
+        <item>UI</item>
+
+    </string-array>
+
+</resources>
