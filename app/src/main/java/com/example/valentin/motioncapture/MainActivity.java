@@ -48,6 +48,8 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         adapterL.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner1.setAdapter(adapterL);
 
+
+
         //Spinner de choix dde la Fréquence
         spinner2=(Spinner)findViewById(R.id.spinnerR);
         ArrayAdapter<CharSequence> adapterR=ArrayAdapter.createFromResource(this,R.array.frequency, android.R.layout.simple_spinner_item);
